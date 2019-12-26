@@ -55,7 +55,7 @@ export const withAuthCheck = Component => props => {
 
 
 export const AuthContextProvider = (props) => {
-    const [isLogin, setIsLogin] = useState(undefined)
+    const [isLogin, setIsLogin] = useState(false)
     const [user, setUser] = useState(undefined)
     const [isLoadingLogin, setIsLoadingLogin] = useState(false)
 
