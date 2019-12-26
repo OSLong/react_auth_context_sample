@@ -1,5 +1,11 @@
 # Start Up Project
-In order to run this project , please use
+In order to run this project
+## clone project
+```sh
+git clone https://github.com/OSLong/react_auth_context_sample.git
+```
+
+## start react
 ```sh
 yarn install 
 yarn start
